@@ -1,0 +1,28 @@
+apiVersion: spec.keptn.sh/0.2.3
+kind: Shipyard
+metadata:
+  name: shipyard-argo
+spec:
+  project: argo
+  stages:
+  - name: "staging"
+    teststrategy: "functional"
+    sequences:
+      - name: deploy
+        actions:
+        - type: deploy
+          strategy: blue-green
+          image:
+            name: argoproj/rollouts-demo
+            tag: blue
+  - name: "production"
+    teststrategy: "functional"
+    sequences:
+      - name: deploy
+        actions:
+        - type: deploy
+          strategy: blue-green
+          image:
+            name: argoproj/rollouts-demo
+            tag: green
+
