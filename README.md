@@ -11,7 +11,7 @@ https://www.hackthebox.com/   ---- Hack the box
 
 https://overthewire.org/wargames/bandit/    ---- bandit ctf
 
-
+https://xmind.app/mindmap/linux-commands/WwtB/   ---- Linux road map
 
 
 Cybersecurity-Roadmap
