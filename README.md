@@ -17,6 +17,8 @@ https://xmind.app/mindmap/linux-commands/WwtB/   ---- Linux road map
 Cybersecurity-Roadmap
 The Ultimate Hacker's Roadmap 2022
 
+
+https://xmind.app/mindmap/cybersecurity-domains.xmind/bsdh6H/?from=gallery   --- cybersecurity road map
 Donwload the roadmaps here: https://github.com/0xTRAW/Cybersecurity-Roadmap/tree/main/maps
 
     Basic Computer Skills - Computer skills refer to the knowledge and abilities required to operate computers and related technology.
